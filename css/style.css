@@ -1,0 +1,291 @@
+body{
+    background-color: #f9f9f9;
+    margin: 100px;
+}
+
+div#parent{
+    height: 1000px;
+    background: url("../assets/mo2.jpg") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: -190px;
+    background-position-x: 270px;
+    position: relative;
+
+}
+
+div#parent header{
+    font-family: mada;
+    padding: 50px 0px;
+    
+
+}
+
+div#parent header .logo h1{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: lowercase;
+    color: #f44336;
+    
+}
+
+div#parent header nav  {
+    float: right;
+}
+
+div#parent header nav ul li{
+    float: left;
+    list-style: none;
+    
+    
+
+}
+div#parent header nav ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 50px;
+    color: rgb(137, 173, 197);
+    text-transform: lowercase;
+}
+
+
+div#parent header nav ul li a i{
+    font-weight: 800;
+}
+
+div#parent section{
+    position: relative;
+    top:160px
+}
+
+div#parent section .title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+
+}
+
+div#parent section .title h4{
+    font-size: 14px;
+}
+
+div#parent section .title h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 100px;
+    color: #4caf50;
+   
+}
+
+div#parent section .content {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+
+div#parent section .content h5 {
+    font-size: 13px;
+    margin-bottom: 5px;
+    color:#aaaaaa
+}
+
+
+div#parent section .content p{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+div#parent section .btn {
+    margin-top: 60px;
+    display: flex;
+}
+
+div#parent section .btn a{
+    text-decoration: none;
+    font-size: 20px;
+    height: 12px;
+    width: 12px;
+    
+    border-radius: 50%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    transition: all 250ms ease-in-out;
+
+}
+
+div#parent section .btn a:first-child{
+   margin-right: 10px;
+   color: #f44336;
+   border:1px solid #f44336
+}
+
+div#parent section .btn a:last-child{
+   margin-right: 10px;
+   color: #4caf50;
+   border: 1px solid #4caf50;
+}
+
+div#parent section .btn a:first-child:hover{
+   background-color: #f44336;
+   color: #fff;
+ }
+ 
+ div#parent section .btn a:last-child:hover{
+    background-color: #4caf50;
+   color: #fff;
+ }
+
+ div#parent section aside {
+     transform-origin: right;
+     transform: rotate(90deg);
+     position: relative;
+     top: 550px;
+     
+ }
+
+ div#parent section aside ul li{
+     display: inline-block;
+     margin-right: 70px;
+ }
+
+ div#parent section aside ul li a{
+     text-decoration: none;
+     font-family: mada;
+     font-size: 14px;
+     color:black;
+     text-transform: capitalize;
+ }
+
+ div#parent footer{
+     height: 240px;
+     position: absolute;
+     bottom: 0px;
+     width: 100%;
+ }
+
+ 
+div#parent footer .left{
+     background-color: #eeeeee;
+     height: inherit;
+     width: 100%;
+ }
+
+ div#parent footer .right{
+    background-color: #273238;
+    height: inherit;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    bottom:0;
+
+}
+ div#parent footer .left .content{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     height: 240px;
+ }
+
+ div#parent footer .left .content h1{
+     font-size: 35px;
+     font-weight: 400;
+     font-family: fira sans;
+
+ }
+
+ div#parent footer .left .content a{
+     font-size: 35px;
+     font-weight: 400;
+     font-family: fira sans;
+     text-decoration: none;
+     color: #c51818;
+
+ }
+
+ div#parent footer .left .content a:hover{
+     color: greenyellow;
+ }
+
+
+ div#parent footer .left .content h4{
+     font-size: 14px;
+     font-family: mada;
+
+ }
+
+ div#parent .foo{
+     position: relative;
+     z-index: 3;
+ }
+
+ div#parent .foo.pic{
+     position: relative;
+     height: 290px;
+     width: 100%;
+     bottom: 50px;
+     overflow: hidden;
+ }
+
+ div#parent footer .foo.btn{
+     display: flex;
+     bottom: 45px;
+ }
+
+ div#parent footer .foo.btn .swiper-button-prev, .swiper-button-next{
+    position: static;
+    top: 0;
+    width: unset;
+    height: inherit;
+    background-image: none;
+    margin-top: 0;
+}
+
+ div#parent footer .foo.btn button{
+     border: none;
+     background-color: #273238;
+     color: #fff;
+     padding: 17px;
+     cursor: pointer;
+     font-weight: 600;
+     transition: all 250ms ease-in-out;
+
+ }
+
+ div#parent footer .foo.btn button i{
+     font-weight: 600;
+ }
+
+ div#parent footer .foo.btn button:hover{
+     background-color: #192125;
+ }
+
+ div#parent footer .foo.text{
+     padding: 20px;
+
+ }
+ div#parent footer .foo.text h4{
+     margin-bottom: 15px;
+     color: #fff;
+     font-family: mada;
+     text-transform: uppercase;
+     font-size: 13px;
+ }
+ div#parent footer .foo.text p{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 24px;
+}
+
+
+
+
+
+
+
